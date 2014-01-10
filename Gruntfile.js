@@ -219,7 +219,8 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         'images/{,*/}*.{webp,gif}',
-                        '_locales/{,*/}*.json'
+                        '_locales/{,*/}*.json',
+                        'scripts/iama-highlights.js'
                     ]
                 }, {
                     expand: true,
@@ -254,7 +255,12 @@ module.exports = function (grunt) {
                     buildnumber: true,
                     background: {
                         target:'scripts/background.js'
-                    }
+                    },
+
+                    web_accessible_resources: {
+                        target: "scripts/iama-highlights.js"
+                    }        
+    
                 },
                 src: '<%= yeoman.app %>',
                 dest: '<%= yeoman.dist %>'
