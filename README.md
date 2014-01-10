@@ -14,7 +14,7 @@ This information pretty much comes from the [Chrome Extension Developers Guide](
 
 ### Loading the extension into Chrome
 
-1. Download [iama-highlights.zip](iama-highlights.zip) and unzip it.
+1. Download [iama-highlights.zip](https://github.com/dannguyen/iama-highlights-chrome-extension/blob/master/iama-highlights.zip) and unzip it.
 2. In the Google Chrome search bar, navigate to: [chrome://extensions/](chrome://extensions/).
 3. Enable __Developer mode__ by checking its checkbox in the __top right__
 4. Click __Load unpacked extension...__ to pop up a file-selection dialog.
